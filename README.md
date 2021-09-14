@@ -1,21 +1,17 @@
-# 4 step are there
+# There are 4 steps:
 
-## step 1
-### prepare:
+## prepare:
 	installing packages required
 
-## step 2
-### up:
+## up:
 	Running docker-compose.yml and Dockerfile
 	Creating mysql connection with php and printing the client and server version
 
-## step 3
-### down:
+## down:
 	Stoping all running containers
 	Storing all usefull files in <your_current_directory_path>/docker/*
 
-## step 4
-### teardown:
+## teardown:
 	Deleting all file present in <your_current_directory_path>/docker/*
 
 1) To begin with it just run <code>make</code> in this folder. it will do everything automatically.
